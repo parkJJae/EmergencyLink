@@ -65,8 +65,8 @@
 
 ## 🏗 아키텍처
 
-![EmergencyLink Architecture](<img width="753" height="1561" alt="image" src="https://github.com/user-attachments/assets/cef0d3c1-9479-4a47-9877-9599568881a8" />
-)
+![EmergencyLink Architecture]<img width="753" height="1561" alt="image" src="https://github.com/user-attachments/assets/cef0d3c1-9479-4a47-9877-9599568881a8" />
+
 
 ### 3겹 방어막 전략
 
