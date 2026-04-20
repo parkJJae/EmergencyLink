@@ -50,7 +50,8 @@
 
 ## 📐 ERD
 
-![EmergencyLink ERD](./docs/erd.png)
+![EmergencyLink ERD](<img width="1960" height="1101" alt="image" src="https://github.com/user-attachments/assets/2075f791-6ca6-43d3-9fc7-1e9e7df6d3ec" />
+)
 
 | 테이블 | 설명 | 관계 |
 |--------|------|------|
@@ -64,7 +65,8 @@
 
 ## 🏗 아키텍처
 
-![EmergencyLink Architecture](./docs/architecture.png)
+![EmergencyLink Architecture](<img width="753" height="1561" alt="image" src="https://github.com/user-attachments/assets/cef0d3c1-9479-4a47-9877-9599568881a8" />
+)
 
 ### 3겹 방어막 전략
 
