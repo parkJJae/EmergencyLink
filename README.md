@@ -9,6 +9,7 @@
 | 문서 | 링크 |
 |------|------|
 | 📒 기획 / 설계 (Notion) | [EmergencyLink 노션 페이지](https://www.notion.so/EmergencyLink-API-0ae825f7b37883edaeed013044566034) |
+| 📝 개발 기록 (Velog) | [EmergencyLink 시리즈](벨로그-링크) |
 | 🐛 이슈 트래커 | [GitHub Issues](https://github.com/parkJJae/EmergencyLink/issues) |
 
 <br>
