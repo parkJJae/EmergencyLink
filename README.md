@@ -5,7 +5,7 @@
 <br>
 
 ## 📌 프로젝트 문서
-
+.
 | 문서 | 링크 |
 |------|------|
 | 📒 기획 / 설계 (Notion) | [EmergencyLink 노션 페이지](https://www.notion.so/EmergencyLink-API-0ae825f7b37883edaeed013044566034) |
