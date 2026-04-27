@@ -1,0 +1,33 @@
+services:
+  redis:
+    image: redis:7.2-alpine
+    container_name: emergencylink-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
+    command: redis-server --appendonly yes
+    restart: unless-stopped
+
+  mysql-master:
+    image: mysql:8.0
+    container_name: emergencylink-mysql-master
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: root1234
+      MYSQL_DATABASE: emergencylink
+      MYSQL_USER: emergency
+      MYSQL_PASSWORD: emergency1234
+      TZ: Asia/Seoul
+    volumes:
+      - mysql-master-data:/var/lib/mysql
+    command:
+      - --character-set-server=utf8mb4
+      - --collation-server=utf8mb4_unicode_ci
+      - --default-time-zone=+09:00
+    restart: unless-stopped
+
+volumes:
+  redis-data:
+  mysql-master-data:
