@@ -5,7 +5,7 @@
 <br>
 
 ## 📌 프로젝트 문서
-.
+
 | 문서 | 링크 |
 |------|------|
 | 📒 기획 / 설계 (Notion) | [EmergencyLink 노션 페이지](https://www.notion.so/EmergencyLink-API-0ae825f7b37883edaeed013044566034) |
@@ -29,7 +29,7 @@
 
 **EmergencyLink는 이 문제를 해결한다.**
 10만 명이 동시에 접속해도, 외부 API가 죽어도
-단 **50ms 안에** 긴급 연락처를 반환하는 서버를 목표로 한다
+단 **50ms 안에** 긴급 연락처를 반환하는 서버를 목표로 한다.
 
 <br>
 
@@ -51,7 +51,8 @@
 
 ## 📐 ERD
 
-<img width="1960" height="1101" alt="image" src="https://github.com/user-attachments/assets/2075f791-6ca6-43d3-9fc7-1e9e7df6d3ec" />
+<img width="1960" height="1101" alt="EmergencyLink ERD" src="https://github.com/user-attachments/assets/2075f791-6ca6-43d3-9fc7-1e9e7df6d3ec" />
+
 <br>
 
 | 테이블 | 설명 | 관계 |
@@ -66,8 +67,7 @@
 
 ## 🏗 아키텍처
 
-(<img width="753" height="1561" alt="image" src="https://github.com/user-attachments/assets/cef0d3c1-9479-4a47-9877-9599568881a8" />
-
+<img width="753" height="1561" alt="EmergencyLink Architecture" src="https://github.com/user-attachments/assets/cef0d3c1-9479-4a47-9877-9599568881a8" />
 
 ### 3겹 방어막 전략
 
@@ -138,5 +138,11 @@
 - [x] 요구사항 정의
 - [x] ERD 설계
 - [x] 아키텍처 설계
-- [ ] 구현
+- [x] 개발 환경 세팅 (Docker Compose, Spring Boot)
+- [ ] Entity 및 Repository 구현
+- [ ] Controller / Service 구현
+- [ ] JWT 인증
+- [ ] 캐시 적용 (Caffeine + Redis)
+- [ ] Master/Slave DB 라우팅
+- [ ] 서킷브레이커 (Resilience4j)
 - [ ] 성능 테스트 (JMeter)
