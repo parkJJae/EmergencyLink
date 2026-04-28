@@ -139,7 +139,7 @@
 - [x] ERD 설계
 - [x] 아키텍처 설계
 - [x] 개발 환경 세팅 (Docker Compose, Spring Boot)
-- [ ] Entity 및 Repository 구현
+- [x] Entity 및 Repository 구현
 - [ ] Controller / Service 구현
 - [ ] JWT 인증
 - [ ] 캐시 적용 (Caffeine + Redis)
