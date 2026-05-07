@@ -4,17 +4,17 @@
 
 <br>
 
-## 📌 프로젝트 문서
+## 프로젝트 문서
 
 | 문서 | 링크 |
 |------|------|
-| 📒 기획 / 설계 (Notion) | [EmergencyLink 노션 페이지](https://www.notion.so/EmergencyLink-API-0ae825f7b37883edaeed013044566034) |
-| 📝 개발 기록 (Velog) | [EmergencyLink 시리즈](https://velog.io/@qwg2825/series/EmergencyLink) |
-| 🐛 이슈 트래커 | [GitHub Issues](https://github.com/parkJJae/EmergencyLink/issues) |
+|  기획 / 설계 (Notion) | [EmergencyLink 노션 페이지](https://www.notion.so/EmergencyLink-API-0ae825f7b37883edaeed013044566034) |
+|  개발 기록 (Velog) | [EmergencyLink 시리즈](https://velog.io/@qwg2825/series/EmergencyLink) |
+| 이슈 트래커 | [GitHub Issues](https://github.com/parkJJae/EmergencyLink/issues) |
 
 <br>
 
-## 💡 배경 — 왜 만들었는가
+## 배경 — 왜 만들었는가
 
 **2024년 1월, 일본 노토반도 M7.5 대지진.**
 2011년 도호쿠 이후 최대 규모. 통신망 마비, 관광객 밀집 지역 직격.
@@ -24,16 +24,16 @@
 
 두 사건의 공통점 —
 
-> 재난이 터진 그 순간, 사람들이 "대사관 전화번호"를 검색했고
+> 재난이 터진 그 순간 사람들이 "대사관 전화번호"를 검색했고
 > 가장 먼저 마주한 것은 **"접속 불가"** 화면이었다.
 
 **EmergencyLink는 이 문제를 해결한다.**
-10만 명이 동시에 접속해도, 외부 API가 죽어도
+10만 명이 동시에 접속해도 외부 API가 죽어도
 단 **50ms 안에** 긴급 연락처를 반환하는 서버를 목표로 한다.
 
 <br>
 
-## 📋 주요 기능
+## 주요 기능
 
 **일반 사용자 (인증 불필요)**
 - 국가별 대사관/영사관 정보 조회
@@ -49,7 +49,7 @@
 
 <br>
 
-## 📐 ERD
+## ERD
 
 <img width="1960" height="1101" alt="EmergencyLink ERD" src="https://github.com/user-attachments/assets/2075f791-6ca6-43d3-9fc7-1e9e7df6d3ec" />
 
